@@ -1,0 +1,21 @@
+- Instala o projeto Laravel completo
+composer create-project laravel/laravel nome_do_projeto.
+
+- Entrar na pasta do projeto
+cd nome_do_projeto
+
+- Comando base do laravel:
+php artisan
+
+- Rodar o servidor web
+php artisan serve
+
+- Acessar localhost:8000
+
+- As views ficam na pasta resources/views
+- As rotas ficam na pasta routes/web.php 
+- Controllers ficam e app/Http/Controllers/NomeController.php 
+- Controllers ficam e app/Http/Controllers/Produtos.php 
+- criar um controller rode o comando php artisan make:controler NomeController 
+- criar view: php artisan make:view
+
